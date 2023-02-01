@@ -1,3 +1,124 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+body, section, form, ul, li {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__ribbon {
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--dark-gray);
+    border-top: 5px solid var(--enphasis-color);
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#section__login-content {
+    /* flex-box defined at second body tag */
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    padding: 32px;
+    font-size: 14px;
+    margin: auto;
+}
+
+label {
+    color: var(--dark-gray);
+    margin-bottom: 1.5px;
+}
+
+#email, #password, #submit {
+    width: auto;
+    height: 32px;
+}
+
+#email, #password {
+    border: 1px solid var(--light-gray);
+    border-radius: 2px;
+    color: var(--dark-gray);
+    padding: 0 6px;
+}
+
+#email {
+    margin-bottom: 16px;
+}
+
+#password {
+    margin-bottom: 8px;
+}
+
+form a {
+    color: var(--dark-gray);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+#submit {
+    border: none;
+    border-radius: 2px;
+    background-color: var(--dark-gray);
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: var(--active-color);
+    color: var(--dark-gray);
+}
+
+a {
+    color: var(--dark-gray);
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+#section__ul--active {
+    /* flex-box defined at second body tag */
+    width: 100%;
+    height: auto;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+#section__ul--active li {
+    /* flex-box defined at second body tag */
+    width: 100%;
+    height: 40px;
+    background-color: var(--second-color);
+    border: 1px solid var(--light-gray);
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-gray);
+}
+
+.section--signup {
+    margin-bottom: 32px;
+}
+
+#section__social {
+    flex-direction: row;
+    gap: 16px;
 }
