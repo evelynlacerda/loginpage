@@ -4,7 +4,11 @@ body {
     min-height: 100vh;
 }
 
-body, section, form, ul, li {
+body,
+section,
+form,
+ul,
+li {
     display: flex;
     flex-direction: column;
 }
@@ -22,7 +26,7 @@ section {
     margin: auto;
 }
 
-#section__login-content {
+#section__login__content {
     /* flex-box defined at second body tag */
     align-items: center;
     justify-content: center;
@@ -46,12 +50,15 @@ label {
     margin-bottom: 1.5px;
 }
 
-#email, #password, #submit {
+#email,
+#password,
+#submit {
     width: auto;
     height: 32px;
 }
 
-#email, #password {
+#email,
+#password {
     border: 1px solid var(--light-gray);
     border-radius: 2px;
     color: var(--dark-gray);
@@ -94,7 +101,7 @@ a:hover {
     color: var(--hover-color);
 }
 
-#section__ul--active {
+#section__ul__active {
     /* flex-box defined at second body tag */
     width: 100%;
     height: auto;
@@ -102,7 +109,7 @@ a:hover {
     margin-bottom: 32px;
 }
 
-#section__ul--active li {
+#section__ul__active li {
     /* flex-box defined at second body tag */
     width: 100%;
     height: 40px;
@@ -114,7 +121,7 @@ a:hover {
     color: var(--dark-gray);
 }
 
-.section--signup {
+.section__signup {
     margin-bottom: 32px;
 }
 
