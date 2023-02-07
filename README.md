@@ -14,7 +14,5 @@ This project was developed with:
 - CSS3
 - Figma
 
-<br>
-
 ## 📝 Project
 At this project I did a test with HTML and CSS to aplicate in other project that I'm developing.
