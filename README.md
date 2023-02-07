@@ -1,8 +1,12 @@
 # 🔑 Login Page Test
 <br>
+
 <p align="center">
+  
 ![loginpagetest](https://user-images.githubusercontent.com/109745342/216257501-0cff1b9b-98b1-43a3-96f9-e3d317f3e21a.gif)
+  
 </p>
+
 <br>
 
 ## 📝 What I make here?
