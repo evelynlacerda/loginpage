@@ -1,8 +1,10 @@
-# 🔑 Login Page Test
-<br>
+<h1 align="center"> 🔑 Login Page Test </h1>
 
 <p align="center">
-  
+Login website page for layout tests.
+</p>
+
+<p align="center">
 ![loginpagetest](https://user-images.githubusercontent.com/109745342/216257501-0cff1b9b-98b1-43a3-96f9-e3d317f3e21a.gif)
   
 </p>
